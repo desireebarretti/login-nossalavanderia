@@ -1,0 +1,27 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./home.html">
+    <title>Nossa Lavanderia - Login</title>
+
+</head>
+<body>
+        <main>
+            <form class="secao_login">
+                <a href="./home.html"><img src="./img/logo.png" alt="" class="login_img"></a>
+                <h2 class="login">Login</h2>
+                <p>Username</p>
+                <i src="./img/usuario.png"><input type="text" placeholder="Insira seu usuário" class="login_input" id="login_input_usuario" required>
+                <p>Password</p>
+                <input type="password" placeholder="Insira sua senha" class="login_input" id="login_input_senha" required><br>
+                <a href="#" class="login_a">Esqueceu a senha?</a><br>
+                <!-- onclick(logar()) é para chamar a funcao do js, return false é para ir para o encaminhamento -->
+                <input  type="submit" href="./home.html" class="login_input login_enviar" onclick="logar(); return false"></input>
+            </form>
+        </main>
+        <script src="./js.js"></script>
+</body>
+</html>

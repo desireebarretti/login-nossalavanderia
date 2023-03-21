@@ -1,0 +1,112 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./_reset.css">
+    <title>Home - Minha Lavanderia</title>
+</head>
+<style>
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #8f5dfe;
+    }
+
+    header{
+        background: linear-gradient(45deg, #cc8dff, #ad75ff, #8f5dfe);
+        width: 100%;
+        height: 12%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #8f5dfe;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .home__logo{
+        width: 40%;
+        height: 20%;
+        margin-left: 6em;
+    }
+
+    .procurar {
+        background-color: #eeeeee;
+        border: 1px solid #512cfd;
+        border-radius: 17px;
+        width: 20%;
+        text-align: center;
+        height: 40%;
+        margin-left: 4em;
+    }
+
+    main h1{
+        color: #eeeeee;
+        width: 100%;
+        font-weight: 900;
+        font-size: 35px;
+        padding: 8%;
+        background: linear-gradient(45deg, #cc8dff, #ad75ff, #8f5dfe);
+        height: 5%;
+    }
+
+    address {
+        color: #adb5bd;
+        text-align: center;
+        line-height: 1.5;
+        margin-top: 12em;
+        margin-right: 12em;
+    }
+
+    .pedido {
+        width: 90%;
+        border-radius: 1em;
+        border: 1px solid #512cfd;
+        height: 30px;
+        text-align: center;
+        font-size: 12px;
+        display: block;
+        margin-top: 3%;
+        margin-left: 10%;
+        color: #512cfd;
+    }
+
+    .pedido:hover{
+        background: linear-gradient(45deg, #cc8dff, #8f5dfe, #512cfd);
+        color: #f8f9fa;
+        cursor: pointer;
+    }
+
+    .endereço {
+        display: flex;
+        justify-content: space-between;      
+    }
+
+    .bem-vindo{
+        color: #eeeeee;
+        margin-right: 3em;
+    }
+</style>
+<body>
+    <header>
+        <input type="search" placeholder="procurar pelo seu pedido" class="procurar">
+        <p class="bem-vindo">Bem vindo a sua área na Nossa Lavanderia</p>
+    </header>
+    <main>
+        <section class="endereço">
+            <img src="./img/logo.png" alt="" class="home__logo">
+            <address>
+                Fale Conosco <br> 
+                sorocaba@nossalavanderia.com.br <br> 
+                (15) 1234-9087 <br> 
+                (15) 91234-6543
+                <a href="#"><button type="submit" class="pedido">FAZER PEDIDO ONLINE</button></a>   
+            </address>
+        </section>
+        
+        <section>
+            <h1>Lavanderia do futuro, lavando seus pertecens à seco</h1>
+        </section>
+    </main>
+</body>
+</html>

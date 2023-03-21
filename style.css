@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(45deg, #cc8dff, #ad75ff, #8f5dfe);
+    font-family:Arial, Helvetica, sans-serif;
+    color: #495057;
+}
+
+.secao_login{
+    background-color: #f8f9fa;
+    width: 25em;
+    text-align: center;
+    height: 27em;
+    align-items: center;
+    padding-top: -4em;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 6px 5px 5px #7044fe;
+    margin-left: 35%;
+    margin-top: 7.5%;
+    border: 1px solid #adb5bd
+}
+
+.login{
+    color: #512cfd;
+    margin-top: -2em;
+}
+
+.login_input{
+    width: 60%;
+    border-radius: 1em;
+    border: 1px solid #adb5bd;
+    height: 30px;
+    text-align: center;
+}
+
+.login_a{
+    text-decoration: none;
+    font-size: 10px;
+    margin-left: 30%;
+}
+
+.login_enviar{
+    margin-top: 2em;
+}
+
+.login_enviar:hover{
+    background: linear-gradient(45deg, #cc8dff, #8f5dfe, #512cfd);
+    color: #f8f9fa;
+    cursor: pointer;
+}
+
+.login_img{
+    width: 40%;
+}
+
+#login_input_usuario{
+    background-image: url(./img/usuario.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+
+#login_input_senha{
+    background-image: url(./img/senha.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+
